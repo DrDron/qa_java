@@ -31,7 +31,7 @@ public class ParameterizedLionTest {
     this.isNegativeTest = isNegativeTest;
     }
     @Parameterized.Parameters
-    public static Object[][] getDataForOrder() {
+    public static Object[][] getLionTestData() {
         return new Object[][] {
                 {"Самец", true, false},
                 {"Самка", false, false},
