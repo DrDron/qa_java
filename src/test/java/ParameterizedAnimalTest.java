@@ -33,7 +33,7 @@ public class ParameterizedAnimalTest {
         return new Object[][] {
                 {"Травоядное", Arrays.asList("Трава", "Различные растения"), false},
                 {"Хищник", Arrays.asList("Животные", "Птицы", "Рыба"), false},
-                {"Хищноядное", "", true}
+                {"Хищноядное", Arrays.asList(""), true}
         };
     }
     @Test
